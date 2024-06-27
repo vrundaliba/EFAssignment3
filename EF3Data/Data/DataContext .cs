@@ -16,7 +16,7 @@ namespace EF3Data.Data
         public DataContext()
         {
             var path = AppContext.BaseDirectory;
-            DbPath = Path.Join(path, "EFAssign3_Mathewd4.db");
+            DbPath = Path.Join(path, "EFAssign3_gohilv.db");
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
